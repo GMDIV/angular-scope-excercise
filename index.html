@@ -23,6 +23,12 @@
 					       ng-model="name" />
 				</label >
 				<p >{{name}}</p >
+
+				<div class="child"
+					 ng-controller="ChildController">
+					<button class="btn" ng-click="reset()">Reset</button>
+					<p>{{name}}</p>	 	
+				</div>
 			</div >
 		</div >
 	</div >
